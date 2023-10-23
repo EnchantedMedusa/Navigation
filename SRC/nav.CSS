@@ -1,0 +1,12 @@
+.about{
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+}
+li>a{
+    text-decoration: none;
+}
+.navigation{
+    background-image: url(../RES/R.jpg);
+    background-attachment: fixed;  
+    background-size:50%;
+}

@@ -1,0 +1,41 @@
+.first-header{
+    display: flex;
+    width: 100%;
+    background-color: #ED61Ab;
+    justify-content: space-between;
+    font-family: 'Exo 2', sans-serif;
+}
+.btn{
+    width:100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: unset;
+}
+
+.second-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+.nav{
+    list-style-type:none;
+    text-align: center;
+    display: flex;
+}
+li>a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+li>a:hover{
+    background-color: #ED61Ab;
+}
